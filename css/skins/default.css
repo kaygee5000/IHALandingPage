@@ -1,0 +1,126 @@
+
+input[type="text"].subs {
+	background:none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+	
+	border-radius:0;
+	color: #333;
+	margin-bottom: 0;
+	min-width: 30%;
+	padding: 12px;
+	border-radius: 4px;
+	-webkit-transition: 0.4s border linear;
+	-moz-transition: 0.4s border ease-in-out;
+	-o-transition: 0.4s border ease-in-out;
+	-ms-transition: 0.4s border ease-in-out;
+	transition: 0.4s border linear;
+
+}
+input[type="text"].subs:focus{
+	color: #000;
+	background:#fff;
+	box-shadow:0 0 6px #333;
+	border-color:transparent !important;
+	text-shadow:1px 0 0 rgba(255, 255, 255, 0.9);
+}
+
+input[type=submit]{
+	width:auto;
+	z-index:999;
+	padding:.7em;
+	display:inline-block;
+	font-weight:bold;
+	text-shadow:1px 1px rgba(0,0,0,0.2);
+	border:0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	color:#fff;
+	-webkit-transition: 0.4s background ease-in-out;
+	-moz-transition: 0.4s background ease-in-out;
+	-o-transition: 0.4s background ease-in-out;
+	-ms-transition: 0.4s background ease-in-out;
+	transition: 0.4s background ease-in-out;
+	background:#EF9C1F;
+	background:-moz-linear-gradient(top,#EF9C1F 0,#F09609 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#EF9C1F),color-stop(100%,#F09609));
+	background:-o-linear-gradient(top,#EF9C1F 0,#F09609 100%);
+	background:-ms-linear-gradient(top,#EF9C1F 0,#F09609 100%);
+	background:linear-gradient(to top,#EF9C1F 0,#F09609 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EF9C1F',endColorstr='#F09609',GradientType=0);
+}
+
+input[type=submit]:hover{
+	cursor:pointer;
+	background:#F09609;
+	color:#f2f2f2;
+	background:-moz-linear-gradient(top,#F09609 0,#EF9C1F 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#F09609),color-stop(100%,#EF9C1F));
+	background:-o-linear-gradient(top,#F09609 0,#EF9C1F 100%);
+	background:-ms-linear-gradient(top,#F09609 0,#EF9C1F 100%);
+	background:linear-gradient(to top,#F09609 0,#EF9C1F 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F09609',endColorstr='#EF9C1F',GradientType=0)
+}
+
+input[type=submit]:active{
+	-moz-box-shadow:inset 0 0 6px 2px rgba(49, 129, 249,0.8);
+	-webkit-box-shadow:inset 0 0 6px 2px rgba(49, 129, 249,0.8);
+	box-shadow:inset 0 0 6px 2px rgba(49, 129, 249,0.8);
+}
+.label-warning, .badge-warning {
+    background-color: #EF9C1F;
+    display: inline;
+    position: relative;
+}
+
+.SubTitle h1 span {
+    background: none repeat scroll 0 0 #EF9C1F;
+    padding: 10px 20px 0;
+}
+.twitter-content a, .twitter-meta a {
+	color: #EF9C1F;
+}
+
+
+
+/*update*/
+
+.logo,.skills li,.overlay,.overlay i {
+    background:#F09609;
+}
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+	background:#f09609;
+	background:-moz-linear-gradient(top,#f09609 0,#EF9C1F 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#f09609),color-stop(100%,#EF9C1F));
+	background:-o-linear-gradient(top,#f09609 0,#EF9C1F 100%);
+	background:-ms-linear-gradient(top,#f09609 0,#EF9C1F 100%);
+	background:linear-gradient(to top,#f09609 0,#EF9C1F 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09609',endColorstr='#EF9C1F',GradientType=0);
+}
+
+
+.SubscribeTitle h4 span {
+    color: #F09609;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+-webkit-transition: 0.4s background ease-in-out;
+	-moz-transition: 0.4s background ease-in-out;
+	-o-transition: 0.4s background ease-in-out;
+	-ms-transition: 0.4s background ease-in-out;
+	transition: 0.4s background ease-in-out;
+	text-decoration: none;
+	color:#f2f2f2;
+	background:#f09609;
+	background:-moz-linear-gradient(top,#f09609 0,#EF9C1F 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#f09609),color-stop(100%,#EF9C1F));
+	background:-o-linear-gradient(top,#f09609 0,#EF9C1F 100%);
+	background:-ms-linear-gradient(top,#f09609 0,#EF9C1F 100%);
+	background:linear-gradient(to top,#f09609 0,#EF9C1F 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09609',endColorstr='#EF9C1F',GradientType=0);
+}
+.header{
+	border-top: 4px solid #f09609;
+}
