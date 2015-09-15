@@ -2,14 +2,14 @@ $( function() {
 	$.vegas( 'slideshow', {
 		delay: 6000,
 		backgrounds: [
-			{ src: 'images/IMG_5210.jpg', fade: 3000 },
-			{ src: 'images/IMG_5226-1024x682.jpg', fade: 3000 },
-			{ src: 'images/IMG_6336.jpg', fade: 3000 },
-			{ src: 'images/IMG_82542.jpg', fade: 3000 },
-			{ src: 'images/DSCN2335.jpg', fade: 3000 },
-			{ src: 'images/hub33.jpg', fade: 3000 },
-			{ src: 'images/IMG_5220.jpg', fade: 3000 },
-			{ src: 'images/IMG_6363.jpg', fade: 3000 }
+			{ src: 'img/hackathon/4.jpg', fade: 3000 },
+			{ src: 'img/hackathon/16497199203_71277cb154_h.jpg', fade: 3000 },
+			{ src: 'img/hackathon/16909917327_e3a5367ac6_z.jpg', fade: 3000 },
+			{ src: 'img/hackathon/16931130169_f6f5072547_h.jpg', fade: 3000 },
+			{ src: 'img/hackathon/16931135679_60ae1a10a9_h.jpg', fade: 3000 },
+			{ src: 'img/hackathon/16931256879_fe204fca60_z.jpg', fade: 3000 },
+			{ src: 'img/hackathon/16931271329_e9a62e26fa_z.jpg', fade: 3000 },
+			{ src: 'img/hackathon/17116667191_496a6f3ceb_c.jpg', fade: 3000 }
 		]
 	})('overlay', {
 		src:'img/overlays/06.png'
