@@ -39,7 +39,7 @@
 
     // You can delete this function, it's only used for demo purposes to get a future date
     function futureDate() {
-            var futureDate = new Date(2015, 11, 4, 1);
+            var futureDate = new Date(2015, 11, 29, 1);
             futureDate.setDate(futureDate.getDate());
 
             dd = futureDate.getDate();
